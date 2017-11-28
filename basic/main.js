@@ -2,11 +2,13 @@
 var nbCells;
 
 // Setup Canvas
+var width = height = 100;
 var canvas = document.querySelector('canvas');
+canvas.width = width;
+canvas.height = height;
 var nbCellsSpan = document.querySelector('span#nb-cells');
 var numCycleSpan = document.querySelector('span#num-cycle');
 var ctx = canvas.getContext('2d');
-var width = height = 100;
 var area = Array(width);
 
 
